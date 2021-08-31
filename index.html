@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" >
-    <head>
-        <meta charset="UTF-8">
-        <title>Basement Times</title>
-        <link rel="stylesheet" href="./build/style.css">
-    </head>
-    <body>
-        <button class="learn-more">Hello World!</button>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>CodePen - CSS Grid: Newspaper Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Playfair+Display+SC:wght@900&family=Playfair+Display:ital,wght@0,800;1,800&family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'><link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="main__wrapper">
+      <main>
+        <h1>The Basement Times</h1>
+        <aside> 
+          <div>
+            <div class="issue">Issue #1 </div>
+            <div class="date">Tuesday, 31 May, 2021</div>
+            <div class="edition">First Edition</div>
+          </div>
+        </aside>
+        <h2 class="title--large main-title">The Basement Team's new website; daily news & blogs from devs</h2>
+        <div class="main-text multi-column">
+          <p>Basement team recently announced their new website, it will be bringing dev news and daily cool blogs from the developers, developers who would like to take part of the blogs are welcome to join the team.</p>
+          <p>The website is hosted in github pages, and the source code is available on github. Currently maintained by the staff from the <em>basement discord community.</em></p>
+          <p>The website is currently under construction, and will be updated regularly.</p>
+        </div>
+        <div class="sidebar">
+          <h3 class="title--big">Hot this week</h3><a class="codepen-item pie" href="https://en.wikipedia.org/wiki/HTTP_cookie" target="_blank"><img class="pie__image" src="https://i.ibb.co/PxZb516/image.png"/>
+            <div class="pie__subtitle">Food </div>
+            <div class="pie__content">
+              <h4>Cookies for everyone!</h4>
+              <p>No man is left behind. I've brought my cookie jar.</p>
+            </div></a><a class="sidebar-item captcha" href="https://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">
+            <h5>Cookie Addict Developer</h5>
+            <p>From Tic Tac Toe to solving meme-based questions, this is a different take on cookies.</p></a>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
