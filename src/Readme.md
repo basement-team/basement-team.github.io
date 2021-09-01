@@ -1,6 +1,6 @@
 # Requirements
 - Sass
-- Pug-cli`
+- Pug-cli
 
 # Installing Requirements
 - Pug-cli
