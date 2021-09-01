@@ -1,7 +1,12 @@
 # Requirements
-- Pug
 - Sass
-- `pug-cli`
+- Pug-cli`
+
+# Installing Requirements
+- Pug-cli
+    - `npm install -g pug-cli`
+- Sass
+    - `npm install -g sass`
 
 # Compiling & Editing
 
